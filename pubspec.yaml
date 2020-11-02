@@ -1,0 +1,72 @@
+name: extreme_assistant
+description: voice recognition in flutter
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+
+  #For UI
+  wave: 0.1.0
+
+  #For Essentials
+  provider: 4.3.2+2
+
+
+  flutter_speech: 1.1.0
+
+  #android_notification_listener2: 2.0.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+  #Docs for flutter icons: https://github.com/fluttercommunity/flutter_launcher_icons
+  #Run the following packages:
+  #flutter pub get
+  #flutter pub run flutter_launcher_icons:main
+flutter_icons:
+  image_path: "assets/images/icon.png"
+  android: true
+  ios: true
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/data/
+
+  #Fonts
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-ExtraLight.otf
+          weight: 200
+        - asset: assets/fonts/Poppins-Light.otf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.otf
+        - asset: assets/fonts/Poppins-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Poppins-Black.otf
+          weight: 900
+        - asset: assets/fonts/Poppins-Italic.otf
+          style: italic
